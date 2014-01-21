@@ -1,0 +1,29 @@
+---
+abstract: 'Application output to websocket stream'
+author:
+  - 'Jan Henning Thorsen <jhthorsen@cpan.org>'
+build_requires:
+  Test::More: 0.90
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-screenorama
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Applify: 0.05
+  Mojo::IOLoop::ReadWriteFork: 0.04
+  Mojolicious: 3.40
+resources:
+  bugtracker: https://github.com/jhthorsen/app-screenorama/issues
+  homepage: https://metacpan.org/release/App-screenorama
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/jhthorsen/app-screenorama
+version: 0.01

@@ -1,0 +1,10 @@
+NAME
+    App::screenorama - Application output to websocket stream
+
+VERSION
+    0.01
+
+DESCRIPTION
+    This program allow you to pipe STDOUT and STDERR from a program over a
+    websocket.
+
